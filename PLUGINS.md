@@ -137,7 +137,7 @@ named `corset_output_$BLOCK_NUMBER_$BLOCK_HASH.txt`. After that an error message
 
 Tracer Readiness is a plugin that enables the existence of the `/tracer-readiness` REST endpoint that
 ensures that the given node is able to accept new requests. Under the hood it performs request limiting via an
-option configuring the number of allowed concurrent requests. Additionally in ensures that the your state is in sync.
+option configuring the number of allowed concurrent requests. Additionally, it ensures that your state is in sync.
 
 The plugin supports the following options in the TOML configuration:
 
